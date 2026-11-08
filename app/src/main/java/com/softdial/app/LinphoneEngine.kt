@@ -1,4 +1,4 @@
-package com.softdial.app
+package com.turbocall.app
 
 import android.content.Context
 import org.linphone.core.Account
