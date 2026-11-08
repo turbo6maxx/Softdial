@@ -125,7 +125,7 @@ class MainActivity : Activity() {
 
         // ---- Header ----
         val title = TextView(this).apply {
-            text = "Soft Dial"
+            text = "Turbo Call"
             setTextColor(Color.WHITE)
             setTypeface(typeface, Typeface.BOLD)
             textSize = 30f
