@@ -209,7 +209,7 @@ class MainActivity : Activity() {
             textSize = 20f
         })
 
-        val register = styledButton("Register", Color.parseColor("#6366F1"), Color.parseColor("#8B5CF6")) {
+        val register = styledButton("Register", Color.parseColor("#FFC107"), Color.parseColor("#FF9800")) {
             delayed(1000) { engine().register(user.text.toString(), pass.text.toString(), server.text.toString()) }
         }
         val call = styledButton("📞  Call", Color.parseColor("#16A34A"), Color.parseColor("#22C55E")) {
