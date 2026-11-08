@@ -1,4 +1,4 @@
-package com.softdial.app
+package com.turbocall.app
 
 import android.Manifest
 import android.app.Activity
@@ -21,7 +21,7 @@ import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
 
-/** Soft Dial: a simple, modern SIP caller with two servers. */
+/** Turbo Call: a simple, modern SIP caller with two servers. */
 class MainActivity : Activity() {
 
     private val handler = Handler(Looper.getMainLooper())
