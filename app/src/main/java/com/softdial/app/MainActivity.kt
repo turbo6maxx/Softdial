@@ -102,7 +102,7 @@ class MainActivity : Activity() {
 
     private fun openTelegram() {
         try {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/soft_dial")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/turbo_call")))
         } catch (_: Exception) {
             status.text = "Telegram or a browser is not available"
         }
