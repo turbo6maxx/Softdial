@@ -153,7 +153,7 @@ class MainActivity : Activity() {
             orientation = LinearLayout.VERTICAL
             background = GradientDrawable(
                 GradientDrawable.Orientation.TL_BR,
-                intArrayOf(Color.parseColor("#111111"), Color.parseColor("#0A3A5C"))
+                intArrayOf(Color.parseColor("#111111"), Color.parseColor("#FFC107"))
             ).apply { cornerRadius = dp(26).toFloat() }
             setPadding(dp(22), dp(24), dp(22), dp(24))
             addView(titleRow)
