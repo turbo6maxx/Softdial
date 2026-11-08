@@ -109,7 +109,7 @@ class MainActivity : Activity() {
     }
 
     private fun updateServerButtons() {
-        val on = gradient(Color.parseColor("#FFC107"), Color.parseColor("#22D3EE"), 14)
+        val on = gradient(Color.parseColor("#FFC107"), Color.parseColor("#FF9800"), 14)
         val off = rounded(Color.parseColor("#0F1530"), 14, Color.parseColor("#2A3358"))
         server1Btn.background = if (serverIndex == 1) on else off
         server2Btn.background = if (serverIndex == 2) on else off
